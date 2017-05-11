@@ -1,0 +1,6 @@
+framework module Pods_PlayWayForDriverTests {
+  umbrella header "Pods-PlayWayForDriverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

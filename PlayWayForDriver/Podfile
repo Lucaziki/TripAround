@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.3'
+use_frameworks!
+
+target 'PlayWayForDriver' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PlayWayForDriver
+  
+  # Swift
+  pod 'Alamofire'
+  pod 'SnapKit'
+  pod 'ReactiveCocoa'
+  pod 'Kingfisher'
+  
+  
+  
+  # Objective-C
+  pod 'AMapSearch-NO-IDFA'
+  pod 'AMapLocation-NO-IDFA'
+  pod 'AMapNavi-NO-IDFA'
+  pod 'MMDrawerController'
+  pod 'MJRefresh'
+  pod 'MBProgressHUD'
+  
+  
+  target 'PlayWayForDriverTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PlayWayForDriverUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

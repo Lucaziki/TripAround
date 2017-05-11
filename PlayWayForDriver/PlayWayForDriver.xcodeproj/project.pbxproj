@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333B53E8BD48DCB31E8A2113 /* Pods_PlayWayForDriverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E589ACF58C23E28CB0DC3912 /* Pods_PlayWayForDriverTests.framework */; };
+		967DD3C5BA2F842C6338C68A /* Pods_PlayWayForDriver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9D8CF747482C493AAB7D1F /* Pods_PlayWayForDriver.framework */; };
+		9A0F8FE4D1180286BE50444B /* Pods_PlayWayForDriverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4DB6EA68EDFCFC626435E8 /* Pods_PlayWayForDriverUITests.framework */; };
+		C28717F41EADD4A900230C34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28717F31EADD4A900230C34 /* AppDelegate.swift */; };
+		C28717F91EADD4A900230C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28717F71EADD4A900230C34 /* Main.storyboard */; };
+		C28717FB1EADD4A900230C34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28717FA1EADD4A900230C34 /* Assets.xcassets */; };
+		C28717FE1EADD4A900230C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28717FC1EADD4A900230C34 /* LaunchScreen.storyboard */; };
+		C28718091EADD4A900230C34 /* PlayWayForDriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28718081EADD4A900230C34 /* PlayWayForDriverTests.swift */; };
+		C28718141EADD4A900230C34 /* PlayWayForDriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28718131EADD4A900230C34 /* PlayWayForDriverUITests.swift */; };
+		C28718241EADD5A800230C34 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28718231EADD5A800230C34 /* BaseViewController.swift */; };
+		C287182C1EADF07900230C34 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287182B1EADF07900230C34 /* MainPageViewController.swift */; };
+		C287182E1EADF0F700230C34 /* LeftPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C287182D1EADF0F700230C34 /* LeftPageViewController.swift */; };
+		C28718321EADF19C00230C34 /* LeftPageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28718311EADF19C00230C34 /* LeftPageHeaderView.swift */; };
+		C28718351EADF2E100230C34 /* UIView+ViewFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28718341EADF2E100230C34 /* UIView+ViewFromNib.swift */; };
+		C28718371EADF69100230C34 /* LeftPageHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28718361EADF69100230C34 /* LeftPageHeaderView.xib */; };
+		C287183A1EADF85A00230C34 /* LeftPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28718381EADF85A00230C34 /* LeftPageCell.swift */; };
+		C287183B1EADF85A00230C34 /* LeftPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28718391EADF85A00230C34 /* LeftPageCell.xib */; };
+		C289D3031EAF2C7800A50C00 /* PersonalCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289D3021EAF2C7800A50C00 /* PersonalCenterViewController.swift */; };
+		C289D3061EAF472C00A50C00 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289D3051EAF472C00A50C00 /* NetWorkManager.swift */; };
+		C289D3091EAF48F200A50C00 /* ServerUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C289D3081EAF48F200A50C00 /* ServerUrl.swift */; };
+		C2B4049C1EB04CAE00D586B1 /* GeneralTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B4049B1EB04CAE00D586B1 /* GeneralTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C28718051EADD4A900230C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28717E81EADD4A900230C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28717EF1EADD4A900230C34;
+			remoteInfo = PlayWayForDriver;
+		};
+		C28718101EADD4A900230C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28717E81EADD4A900230C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28717EF1EADD4A900230C34;
+			remoteInfo = PlayWayForDriver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9D8CF747482C493AAB7D1F /* Pods_PlayWayForDriver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayWayForDriver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E33237E49D83338DD1CF799 /* Pods-PlayWayForDriverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWayForDriverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayWayForDriverUITests/Pods-PlayWayForDriverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F77C56119E2B559F5EE8086 /* Pods-PlayWayForDriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWayForDriver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayWayForDriver/Pods-PlayWayForDriver.debug.xcconfig"; sourceTree = "<group>"; };
+		3C6FB594C4D950314AB9506D /* Pods-PlayWayForDriverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWayForDriverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayWayForDriverTests/Pods-PlayWayForDriverTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D4DB6EA68EDFCFC626435E8 /* Pods_PlayWayForDriverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayWayForDriverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2EB541BE43062956F35A7C /* Pods-PlayWayForDriverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWayForDriverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayWayForDriverUITests/Pods-PlayWayForDriverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C28717F01EADD4A900230C34 /* PlayWayForDriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWayForDriver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28717F31EADD4A900230C34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C28717F81EADD4A900230C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C28717FA1EADD4A900230C34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C28717FD1EADD4A900230C34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C28717FF1EADD4A900230C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28718041EADD4A900230C34 /* PlayWayForDriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWayForDriverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28718081EADD4A900230C34 /* PlayWayForDriverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWayForDriverTests.swift; sourceTree = "<group>"; };
+		C287180A1EADD4A900230C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C287180F1EADD4A900230C34 /* PlayWayForDriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWayForDriverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28718131EADD4A900230C34 /* PlayWayForDriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWayForDriverUITests.swift; sourceTree = "<group>"; };
+		C28718151EADD4A900230C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28718231EADD5A800230C34 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C28718261EADE54B00230C34 /* PlayWayForDriver-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayWayForDriver-Bridging-Header.h"; sourceTree = "<group>"; };
+		C287182B1EADF07900230C34 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		C287182D1EADF0F700230C34 /* LeftPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPageViewController.swift; sourceTree = "<group>"; };
+		C28718311EADF19C00230C34 /* LeftPageHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPageHeaderView.swift; sourceTree = "<group>"; };
+		C28718341EADF2E100230C34 /* UIView+ViewFromNib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ViewFromNib.swift"; sourceTree = "<group>"; };
+		C28718361EADF69100230C34 /* LeftPageHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftPageHeaderView.xib; sourceTree = "<group>"; };
+		C28718381EADF85A00230C34 /* LeftPageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPageCell.swift; sourceTree = "<group>"; };
+		C28718391EADF85A00230C34 /* LeftPageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftPageCell.xib; sourceTree = "<group>"; };
+		C289D3021EAF2C7800A50C00 /* PersonalCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalCenterViewController.swift; sourceTree = "<group>"; };
+		C289D3051EAF472C00A50C00 /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		C289D3081EAF48F200A50C00 /* ServerUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerUrl.swift; sourceTree = "<group>"; };
+		C2B4049B1EB04CAE00D586B1 /* GeneralTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTools.swift; sourceTree = "<group>"; };
+		DA57A89ED7DBCBCC0A745FA1 /* Pods-PlayWayForDriverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWayForDriverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayWayForDriverTests/Pods-PlayWayForDriverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E589ACF58C23E28CB0DC3912 /* Pods_PlayWayForDriverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayWayForDriverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F87838BDBEA70BD9ACE6E4 /* Pods-PlayWayForDriver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayWayForDriver.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayWayForDriver/Pods-PlayWayForDriver.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28717ED1EADD4A900230C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967DD3C5BA2F842C6338C68A /* Pods_PlayWayForDriver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28718011EADD4A900230C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333B53E8BD48DCB31E8A2113 /* Pods_PlayWayForDriverTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C287180C1EADD4A900230C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0F8FE4D1180286BE50444B /* Pods_PlayWayForDriverUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33EF7C34C9F3E58EE075AFED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F77C56119E2B559F5EE8086 /* Pods-PlayWayForDriver.debug.xcconfig */,
+				F5F87838BDBEA70BD9ACE6E4 /* Pods-PlayWayForDriver.release.xcconfig */,
+				DA57A89ED7DBCBCC0A745FA1 /* Pods-PlayWayForDriverTests.debug.xcconfig */,
+				3C6FB594C4D950314AB9506D /* Pods-PlayWayForDriverTests.release.xcconfig */,
+				1E33237E49D83338DD1CF799 /* Pods-PlayWayForDriverUITests.debug.xcconfig */,
+				6A2EB541BE43062956F35A7C /* Pods-PlayWayForDriverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		744E6257D18BDB90E4BCF752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B9D8CF747482C493AAB7D1F /* Pods_PlayWayForDriver.framework */,
+				E589ACF58C23E28CB0DC3912 /* Pods_PlayWayForDriverTests.framework */,
+				4D4DB6EA68EDFCFC626435E8 /* Pods_PlayWayForDriverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C28717E71EADD4A900230C34 = {
+			isa = PBXGroup;
+			children = (
+				744E6257D18BDB90E4BCF752 /* Frameworks */,
+				C28717F21EADD4A900230C34 /* PlayWayForDriver */,
+				C28718071EADD4A900230C34 /* PlayWayForDriverTests */,
+				C28718121EADD4A900230C34 /* PlayWayForDriverUITests */,
+				33EF7C34C9F3E58EE075AFED /* Pods */,
+				C28717F11EADD4A900230C34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C28717F11EADD4A900230C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28717F01EADD4A900230C34 /* PlayWayForDriver.app */,
+				C28718041EADD4A900230C34 /* PlayWayForDriverTests.xctest */,
+				C287180F1EADD4A900230C34 /* PlayWayForDriverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28717F21EADD4A900230C34 /* PlayWayForDriver */ = {
+			isa = PBXGroup;
+			children = (
+				C28718221EADD55000230C34 /* Base */,
+				C287182A1EADF05700230C34 /* MainPage */,
+				C289D3001EAF2C2300A50C00 /* PersonalCenter */,
+				C28718211EADD53300230C34 /* Supports */,
+				C289D3011EAF2C3C00A50C00 /* Utils */,
+			);
+			path = PlayWayForDriver;
+			sourceTree = "<group>";
+		};
+		C28718071EADD4A900230C34 /* PlayWayForDriverTests */ = {
+			isa = PBXGroup;
+			children = (
+				C287180A1EADD4A900230C34 /* Info.plist */,
+				C28718081EADD4A900230C34 /* PlayWayForDriverTests.swift */,
+			);
+			path = PlayWayForDriverTests;
+			sourceTree = "<group>";
+		};
+		C28718121EADD4A900230C34 /* PlayWayForDriverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C28718151EADD4A900230C34 /* Info.plist */,
+				C28718131EADD4A900230C34 /* PlayWayForDriverUITests.swift */,
+			);
+			path = PlayWayForDriverUITests;
+			sourceTree = "<group>";
+		};
+		C28718211EADD53300230C34 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				C28717F31EADD4A900230C34 /* AppDelegate.swift */,
+				C28717FA1EADD4A900230C34 /* Assets.xcassets */,
+				C28717FF1EADD4A900230C34 /* Info.plist */,
+				C28717FC1EADD4A900230C34 /* LaunchScreen.storyboard */,
+				C28717F71EADD4A900230C34 /* Main.storyboard */,
+				C28718261EADE54B00230C34 /* PlayWayForDriver-Bridging-Header.h */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		C28718221EADD55000230C34 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C28718231EADD5A800230C34 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C287182A1EADF05700230C34 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				C28718301EADF17600230C34 /* View */,
+				C287182F1EADF15F00230C34 /* ViewController */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		C287182F1EADF15F00230C34 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C287182D1EADF0F700230C34 /* LeftPageViewController.swift */,
+				C287182B1EADF07900230C34 /* MainPageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C28718301EADF17600230C34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C28718381EADF85A00230C34 /* LeftPageCell.swift */,
+				C28718391EADF85A00230C34 /* LeftPageCell.xib */,
+				C28718311EADF19C00230C34 /* LeftPageHeaderView.swift */,
+				C28718361EADF69100230C34 /* LeftPageHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C28718331EADF1FE00230C34 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C28718341EADF2E100230C34 /* UIView+ViewFromNib.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C289D3001EAF2C2300A50C00 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C289D3041EAF2C8800A50C00 /* ViewController */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		C289D3011EAF2C3C00A50C00 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C28718331EADF1FE00230C34 /* Extension */,
+				C289D3071EAF48D500A50C00 /* NetWorkTools */,
+				C2B4049A1EB04C9D00D586B1 /* Others */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C289D3041EAF2C8800A50C00 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C289D3021EAF2C7800A50C00 /* PersonalCenterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C289D3071EAF48D500A50C00 /* NetWorkTools */ = {
+			isa = PBXGroup;
+			children = (
+				C289D3051EAF472C00A50C00 /* NetWorkManager.swift */,
+				C289D3081EAF48F200A50C00 /* ServerUrl.swift */,
+			);
+			path = NetWorkTools;
+			sourceTree = "<group>";
+		};
+		C2B4049A1EB04C9D00D586B1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C2B4049B1EB04CAE00D586B1 /* GeneralTools.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28717EF1EADD4A900230C34 /* PlayWayForDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28718181EADD4A900230C34 /* Build configuration list for PBXNativeTarget "PlayWayForDriver" */;
+			buildPhases = (
+				B8482BEE50BE17163315C436 /* [CP] Check Pods Manifest.lock */,
+				C28717EC1EADD4A900230C34 /* Sources */,
+				C28717ED1EADD4A900230C34 /* Frameworks */,
+				C28717EE1EADD4A900230C34 /* Resources */,
+				A9C0E9EBE7CF180B7691B1B5 /* [CP] Embed Pods Frameworks */,
+				107D800F1EA92EA861B3335C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayWayForDriver;
+			productName = PlayWayForDriver;
+			productReference = C28717F01EADD4A900230C34 /* PlayWayForDriver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C28718031EADD4A900230C34 /* PlayWayForDriverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C287181B1EADD4A900230C34 /* Build configuration list for PBXNativeTarget "PlayWayForDriverTests" */;
+			buildPhases = (
+				E65235C632465743F00EABAB /* [CP] Check Pods Manifest.lock */,
+				C28718001EADD4A900230C34 /* Sources */,
+				C28718011EADD4A900230C34 /* Frameworks */,
+				C28718021EADD4A900230C34 /* Resources */,
+				DA07BECFE845F9960EDE24CF /* [CP] Embed Pods Frameworks */,
+				77FED1E99CCBC9FD5DEAD386 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28718061EADD4A900230C34 /* PBXTargetDependency */,
+			);
+			name = PlayWayForDriverTests;
+			productName = PlayWayForDriverTests;
+			productReference = C28718041EADD4A900230C34 /* PlayWayForDriverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C287180E1EADD4A900230C34 /* PlayWayForDriverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C287181E1EADD4A900230C34 /* Build configuration list for PBXNativeTarget "PlayWayForDriverUITests" */;
+			buildPhases = (
+				AB395AFB0A45C0029C0ECF29 /* [CP] Check Pods Manifest.lock */,
+				C287180B1EADD4A900230C34 /* Sources */,
+				C287180C1EADD4A900230C34 /* Frameworks */,
+				C287180D1EADD4A900230C34 /* Resources */,
+				9C610D943FF08F4B9D1E47CD /* [CP] Embed Pods Frameworks */,
+				715B8A271547CD73735CA4D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28718111EADD4A900230C34 /* PBXTargetDependency */,
+			);
+			name = PlayWayForDriverUITests;
+			productName = PlayWayForDriverUITests;
+			productReference = C287180F1EADD4A900230C34 /* PlayWayForDriverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28717E81EADD4A900230C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Lucaziki;
+				TargetAttributes = {
+					C28717EF1EADD4A900230C34 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2647835G94;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					C28718031EADD4A900230C34 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FUA8K2295C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C28717EF1EADD4A900230C34;
+					};
+					C287180E1EADD4A900230C34 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FUA8K2295C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C28717EF1EADD4A900230C34;
+					};
+				};
+			};
+			buildConfigurationList = C28717EB1EADD4A900230C34 /* Build configuration list for PBXProject "PlayWayForDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C28717E71EADD4A900230C34;
+			productRefGroup = C28717F11EADD4A900230C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28717EF1EADD4A900230C34 /* PlayWayForDriver */,
+				C28718031EADD4A900230C34 /* PlayWayForDriverTests */,
+				C287180E1EADD4A900230C34 /* PlayWayForDriverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C28717EE1EADD4A900230C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28717FE1EADD4A900230C34 /* LaunchScreen.storyboard in Resources */,
+				C287183B1EADF85A00230C34 /* LeftPageCell.xib in Resources */,
+				C28717FB1EADD4A900230C34 /* Assets.xcassets in Resources */,
+				C28717F91EADD4A900230C34 /* Main.storyboard in Resources */,
+				C28718371EADF69100230C34 /* LeftPageHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28718021EADD4A900230C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C287180D1EADD4A900230C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		107D800F1EA92EA861B3335C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayWayForDriver/Pods-PlayWayForDriver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		715B8A271547CD73735CA4D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayWayForDriverUITests/Pods-PlayWayForDriverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77FED1E99CCBC9FD5DEAD386 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayWayForDriverTests/Pods-PlayWayForDriverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C610D943FF08F4B9D1E47CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayWayForDriverUITests/Pods-PlayWayForDriverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9C0E9EBE7CF180B7691B1B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayWayForDriver/Pods-PlayWayForDriver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB395AFB0A45C0029C0ECF29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8482BEE50BE17163315C436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA07BECFE845F9960EDE24CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayWayForDriverTests/Pods-PlayWayForDriverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65235C632465743F00EABAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28717EC1EADD4A900230C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28717F41EADD4A900230C34 /* AppDelegate.swift in Sources */,
+				C28718351EADF2E100230C34 /* UIView+ViewFromNib.swift in Sources */,
+				C289D3091EAF48F200A50C00 /* ServerUrl.swift in Sources */,
+				C287183A1EADF85A00230C34 /* LeftPageCell.swift in Sources */,
+				C287182C1EADF07900230C34 /* MainPageViewController.swift in Sources */,
+				C2B4049C1EB04CAE00D586B1 /* GeneralTools.swift in Sources */,
+				C287182E1EADF0F700230C34 /* LeftPageViewController.swift in Sources */,
+				C289D3061EAF472C00A50C00 /* NetWorkManager.swift in Sources */,
+				C289D3031EAF2C7800A50C00 /* PersonalCenterViewController.swift in Sources */,
+				C28718241EADD5A800230C34 /* BaseViewController.swift in Sources */,
+				C28718321EADF19C00230C34 /* LeftPageHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28718001EADD4A900230C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28718091EADD4A900230C34 /* PlayWayForDriverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C287180B1EADD4A900230C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28718141EADD4A900230C34 /* PlayWayForDriverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C28718061EADD4A900230C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28717EF1EADD4A900230C34 /* PlayWayForDriver */;
+			targetProxy = C28718051EADD4A900230C34 /* PBXContainerItemProxy */;
+		};
+		C28718111EADD4A900230C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28717EF1EADD4A900230C34 /* PlayWayForDriver */;
+			targetProxy = C28718101EADD4A900230C34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C28717F71EADD4A900230C34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28717F81EADD4A900230C34 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		C28717FC1EADD4A900230C34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28717FD1EADD4A900230C34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C28718161EADD4A900230C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C28718171EADD4A900230C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C28718191EADD4A900230C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F77C56119E2B559F5EE8086 /* Pods-PlayWayForDriver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2647835G94;
+				INFOPLIST_FILE = PlayWayForDriver/Supports/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boheng.palyway.driver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayWayForDriver/Supports/PlayWayForDriver-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C287181A1EADD4A900230C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F87838BDBEA70BD9ACE6E4 /* Pods-PlayWayForDriver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2647835G94;
+				INFOPLIST_FILE = PlayWayForDriver/Supports/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boheng.palyway.driver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayWayForDriver/Supports/PlayWayForDriver-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C287181C1EADD4A900230C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA57A89ED7DBCBCC0A745FA1 /* Pods-PlayWayForDriverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FUA8K2295C;
+				INFOPLIST_FILE = PlayWayForDriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayWayForDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWayForDriver.app/PlayWayForDriver";
+			};
+			name = Debug;
+		};
+		C287181D1EADD4A900230C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6FB594C4D950314AB9506D /* Pods-PlayWayForDriverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FUA8K2295C;
+				INFOPLIST_FILE = PlayWayForDriverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayWayForDriverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayWayForDriver.app/PlayWayForDriver";
+			};
+			name = Release;
+		};
+		C287181F1EADD4A900230C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E33237E49D83338DD1CF799 /* Pods-PlayWayForDriverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FUA8K2295C;
+				INFOPLIST_FILE = PlayWayForDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayWayForDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlayWayForDriver;
+			};
+			name = Debug;
+		};
+		C28718201EADD4A900230C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2EB541BE43062956F35A7C /* Pods-PlayWayForDriverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FUA8K2295C;
+				INFOPLIST_FILE = PlayWayForDriverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlayWayForDriverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlayWayForDriver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28717EB1EADD4A900230C34 /* Build configuration list for PBXProject "PlayWayForDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28718161EADD4A900230C34 /* Debug */,
+				C28718171EADD4A900230C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28718181EADD4A900230C34 /* Build configuration list for PBXNativeTarget "PlayWayForDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28718191EADD4A900230C34 /* Debug */,
+				C287181A1EADD4A900230C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C287181B1EADD4A900230C34 /* Build configuration list for PBXNativeTarget "PlayWayForDriverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C287181C1EADD4A900230C34 /* Debug */,
+				C287181D1EADD4A900230C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C287181E1EADD4A900230C34 /* Build configuration list for PBXNativeTarget "PlayWayForDriverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C287181F1EADD4A900230C34 /* Debug */,
+				C28718201EADD4A900230C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C28717E81EADD4A900230C34 /* Project object */;
+}
